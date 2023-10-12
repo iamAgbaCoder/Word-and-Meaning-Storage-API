@@ -44,4 +44,4 @@ This project is open-source and available under the [MIT License](LICENSE). Feel
 
 ## Author
 
-- [iamAgbaCoder](https://linkedin.com/in/iamAgbacoder
+- [iamAgbaCoder](https://linkedin.com/in/iamAgbacoder)
