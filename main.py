@@ -7,7 +7,7 @@ import json
 
 app = FastAPI()
 
-with open("simple_english_dictionary.json", "r+") as json_file:
+with open("simple_english_dictionary.json", "r") as json_file:
     data = json.load(json_file)
     
 
@@ -24,8 +24,8 @@ async def home():
 
 '''
     this API wordSearch() gets word search query
-    using database query i.e "?word=help". wordSearch() receives users search query,
-    validates it by checking if such word exists and then return a HTTP response with 
+    using database query i.e "?word=help". wordSearch() receives user search query,
+    validates it by checking if such word exists, and then returns a HTTP response with 
     data(word search meaning) or error messages
 '''
 @app.get("/word-search")
